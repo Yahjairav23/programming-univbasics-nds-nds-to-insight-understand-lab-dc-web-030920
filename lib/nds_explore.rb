@@ -12,8 +12,8 @@ end
 def print_first_directors_movie_titles
 
   names = 0
-  while names < pretty_print_nds[0].length do
-    puts pretty_print_nds[0][names]
+  while names < nds[0].length do
+    puts nds[0][names]
     names += 1 
   end
   
