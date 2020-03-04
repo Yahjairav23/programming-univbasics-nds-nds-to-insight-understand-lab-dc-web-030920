@@ -12,8 +12,8 @@ end
 def print_first_directors_movie_titles
 
   names = 0
-  while names < nds[0].length do
-    puts nds[0][names]
+  while names < directors_database[0].length do
+    puts directors_database[0][names]
     names += 1 
   end
   
